@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b5dcfabd9ba9381697e73d41a6d9e478 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b5dcfabd9ba9381697e73d41a6d9e478" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b5dcfabd9ba9381697e73d41a6d9e478 = L.map(
+                "map_b5dcfabd9ba9381697e73d41a6d9e478",
+                {
+                    center: [51.5, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6deba48d8da87d7a14af0a55705a02a1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b5dcfabd9ba9381697e73d41a6d9e478);
+        
+    
+            var marker_0eed9eed017ea76960aa852b318c154d = L.marker(
+                [51.500435, -0.084021],
+                {}
+            ).addTo(map_b5dcfabd9ba9381697e73d41a6d9e478);
+        
+    
+        var popup_9cac7ebc8fbcca4a2c94ec16b0027af6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b97cafdc3c91b7ac13d4eb252622c5da = $(`<div id="html_b97cafdc3c91b7ac13d4eb252622c5da" style="width: 100.0%; height: 100.0%;">Material: Steel, Contractor: Jacobs - 220kg</div>`)[0];
+                popup_9cac7ebc8fbcca4a2c94ec16b0027af6.setContent(html_b97cafdc3c91b7ac13d4eb252622c5da);
+            
+        
+
+        marker_0eed9eed017ea76960aa852b318c154d.bindPopup(popup_9cac7ebc8fbcca4a2c94ec16b0027af6)
+        ;
+
+        
+    
+    
+            var marker_ad2ba9e3284aa99f09a0c15a615f3f9b = L.marker(
+                [51.525433, -0.079554],
+                {}
+            ).addTo(map_b5dcfabd9ba9381697e73d41a6d9e478);
+        
+    
+        var popup_f43a179024b39a87c7aff5d4c9c176cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd0e2592af109a09f69d4f3bf3fc8258 = $(`<div id="html_dd0e2592af109a09f69d4f3bf3fc8258" style="width: 100.0%; height: 100.0%;">Material: gravel, Contractor: Kier - 350kg</div>`)[0];
+                popup_f43a179024b39a87c7aff5d4c9c176cb.setContent(html_dd0e2592af109a09f69d4f3bf3fc8258);
+            
+        
+
+        marker_ad2ba9e3284aa99f09a0c15a615f3f9b.bindPopup(popup_f43a179024b39a87c7aff5d4c9c176cb)
+        ;
+
+        
+    
+    
+            var marker_87b5e39863c2152b9e450981cb2bbc17 = L.marker(
+                [51.521588, -0.157197],
+                {}
+            ).addTo(map_b5dcfabd9ba9381697e73d41a6d9e478);
+        
+    
+        var popup_b4e7740d39d5167b273c38c418f5e691 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00f49bc8a34ac3c005e70bf06111bb12 = $(`<div id="html_00f49bc8a34ac3c005e70bf06111bb12" style="width: 100.0%; height: 100.0%;">Material: concrete, Contractor: Aecom - 125kg</div>`)[0];
+                popup_b4e7740d39d5167b273c38c418f5e691.setContent(html_00f49bc8a34ac3c005e70bf06111bb12);
+            
+        
+
+        marker_87b5e39863c2152b9e450981cb2bbc17.bindPopup(popup_b4e7740d39d5167b273c38c418f5e691)
+        ;
+
+        
+    
+    
+            var marker_08f02613e0df583d6aa357fe288c4410 = L.marker(
+                [51.563234, -0.337664],
+                {}
+            ).addTo(map_b5dcfabd9ba9381697e73d41a6d9e478);
+        
+    
+        var popup_b1c5e24155ef8655e4c6ac6b5c77f9ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e17c2c143a34e9b7953780eaaa0f123d = $(`<div id="html_e17c2c143a34e9b7953780eaaa0f123d" style="width: 100.0%; height: 100.0%;">Material: steel, Contractor: Arup - 500kg</div>`)[0];
+                popup_b1c5e24155ef8655e4c6ac6b5c77f9ba.setContent(html_e17c2c143a34e9b7953780eaaa0f123d);
+            
+        
+
+        marker_08f02613e0df583d6aa357fe288c4410.bindPopup(popup_b1c5e24155ef8655e4c6ac6b5c77f9ba)
+        ;
+
+        
+    
+    
+            var marker_8b41dad2de3799f398f323bfcb8eeba7 = L.marker(
+                [51.485828, -0.168529],
+                {}
+            ).addTo(map_b5dcfabd9ba9381697e73d41a6d9e478);
+        
+    
+        var popup_fbbe3f9548bf53abbdcafd13dca86b8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4b4652e770e8c9b8e83d884362084bf = $(`<div id="html_e4b4652e770e8c9b8e83d884362084bf" style="width: 100.0%; height: 100.0%;">Material: timber, Contractor: Hoare Lee 120kg</div>`)[0];
+                popup_fbbe3f9548bf53abbdcafd13dca86b8b.setContent(html_e4b4652e770e8c9b8e83d884362084bf);
+            
+        
+
+        marker_8b41dad2de3799f398f323bfcb8eeba7.bindPopup(popup_fbbe3f9548bf53abbdcafd13dca86b8b)
+        ;
+
+        
+    
+</script>
+</html>
